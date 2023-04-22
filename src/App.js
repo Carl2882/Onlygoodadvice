@@ -32,7 +32,11 @@ class App extends Component {
     const { advice } =this.state;
 
     return(
-        <h2>{advice}</h2>
+        <div className='app'> 
+            <div className='card'>
+                <h1 className='heading'>{advice}</h1>
+            </div>
+        </div>
     );
   }
 }
